@@ -594,6 +594,11 @@
     .faq p { color: var(--muted); line-height: 1.65; margin: 12px 0 0; }
 
     @media (max-width: 900px) {
+      body {
+        background-size: 100% 760px;
+        background-position: center top;
+        background-repeat: no-repeat;
+      }
       .hero, .use-grid, .pricing { grid-template-columns: 1fr; }
       .hero { padding-top: 28px; }
       .app-window { max-width: 470px; margin: 0 auto; }
@@ -604,6 +609,7 @@
     }
 
     @media (max-width: 620px) {
+      body { background-size: 100% 520px; }
       .page { width: min(100% - 24px, 1160px); }
       .brand span { display: none; }
       .button { min-height: 40px; padding: 0 14px; }
