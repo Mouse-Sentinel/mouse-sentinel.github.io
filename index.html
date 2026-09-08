@@ -270,9 +270,21 @@
       font-weight: 900;
     }
 
+    .ring-label {
+      max-width: 108px;
+      justify-self: center;
+      font-size: 16px;
+      line-height: 1.15;
+      text-align: center;
+    }
+
+    .ring-unit {
+      font-size: 15px;
+    }
+
     .ring-number {
       color: var(--green);
-      font-size: 54px;
+      font-size: 50px;
       line-height: 1;
       font-weight: 900;
     }
@@ -374,7 +386,7 @@
       margin-bottom: 24px;
     }
 
-    .section-head h2, .keyword-card h2, .price-copy h2, .price-card h2 {
+    .section-head h2, .use-card h2, .price-copy h2, .price-card h2 {
       margin: 0;
       font-size: clamp(32px, 4vw, 48px);
       line-height: 1.04;
@@ -420,42 +432,49 @@
       line-height: 1.48;
     }
 
-    .seo-grid {
+    .use-grid {
       display: grid;
       grid-template-columns: 0.9fr 1.1fr;
       gap: 18px;
       align-items: stretch;
     }
 
-    .keyword-card, .keywords, .price-copy {
+    .use-card, .use-list, .price-copy {
       padding: 24px;
       border-radius: 20px;
     }
 
-    .keyword-card p, .price-copy p {
+    .use-card p, .price-copy p {
       margin: 14px 0 0;
       color: var(--muted);
       font-size: 17px;
       line-height: 1.55;
     }
 
-    .keywords {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      align-content: start;
+    .use-list {
+      display: grid;
+      gap: 12px;
     }
 
-    .tag {
-      display: inline-flex;
-      align-items: center;
-      min-height: 34px;
-      padding: 0 12px;
-      border-radius: 999px;
-      color: var(--green-dark);
-      background: rgba(23, 179, 51, 0.1);
-      font-size: 14px;
+    .use-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 14px;
+      border-radius: 16px;
+      background: rgba(23, 179, 51, 0.07);
+    }
+
+    .use-item strong {
+      display: block;
+      margin-bottom: 3px;
+      font-size: 17px;
       font-weight: 900;
+    }
+
+    .use-item span {
+      color: var(--muted);
+      line-height: 1.45;
     }
 
     .pricing {
@@ -526,7 +545,7 @@
     }
 
     @media (max-width: 900px) {
-      .hero, .seo-grid, .pricing { grid-template-columns: 1fr; }
+      .hero, .use-grid, .pricing { grid-template-columns: 1fr; }
       .hero { padding-top: 28px; }
       .app-window { max-width: 470px; margin: 0 auto; }
       .proof, .features { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -589,13 +608,13 @@
         <div>
           <div class="eyebrow"><span class="dot"></span> Native Mac mouse mover</div>
           <h1 id="hero-title">Keep your Mac awake when you step away.</h1>
-          <p class="lead">Mouse Sentinel gently moves your cursor on a timer, with a simple on/off switch, adjustable interval, and clear permission status. It does one job and stays out of your way.</p>
+          <p class="lead">Mouse Sentinel is a simple mouse mover for Mac that gently nudges your cursor on a timer. Use it to keep your Mac awake, prevent sleep, and keep your status active when you need to step away.</p>
           <div class="hero-actions">
             <a class="button primary" href="https://buy.stripe.com/9AQ15T5X70Xo6bu288">Buy now</a>
             <a class="button secondary" href="/login">Login</a>
           </div>
           <div class="proof" aria-label="Product highlights">
-            <div class="proof-item"><strong>$9.99</strong><span>Lifetime license, priced to compete with one-time mouse jiggler apps.</span></div>
+            <div class="proof-item"><strong>$9.99</strong><span>Lifetime license for a polished Mac mouse jiggler.</span></div>
             <div class="proof-item"><strong>5-60s</strong><span>Choose how often Sentinel moves your cursor.</span></div>
             <div class="proof-item"><strong>macOS</strong><span>Built as a tiny native utility for your Mac menu bar.</span></div>
           </div>
@@ -648,8 +667,8 @@
 
       <section aria-labelledby="features-title">
         <div class="section-head">
-          <h2 id="features-title">Made for one quiet job.</h2>
-          <p>A mouse mover should feel trustworthy, obvious, and light. Mouse Sentinel keeps the controls visible and avoids noisy extras.</p>
+          <h2 id="features-title">A better way to keep your Mac active.</h2>
+          <p>Mouse Sentinel gives you the useful parts of an automatic mouse mover without the clutter: start it, choose your timing, and see exactly when the next movement happens.</p>
         </div>
         <div class="features">
           <article class="soft-card feature"><div class="icon-circle">▶</div><h3>One-switch control</h3><p>Start or stop Sentinel instantly, with a running state that is easy to read at a glance.</p></article>
@@ -659,33 +678,26 @@
         </div>
       </section>
 
-      <section aria-labelledby="seo-title">
-        <div class="seo-grid">
-          <div class="soft-card keyword-card">
-            <h2 id="seo-title">Competitive search terms</h2>
-            <p>The page targets direct buying intent around mouse mover and mouse jiggler searches, plus Mac-specific phrases where Mouse Sentinel has the clearest fit.</p>
+      <section aria-labelledby="use-title">
+        <div class="use-grid">
+          <div class="soft-card use-card">
+            <h2 id="use-title">How Mouse Sentinel works</h2>
+            <p>Turn Mouse Sentinel on and it starts a visible countdown. When the timer reaches zero, the app moves your cursor a small random distance, resets the timer, and keeps working quietly in the background.</p>
+            <p>You can set the movement interval from 5 to 60 seconds, so your cursor mover fits the way you work. macOS permission checks are shown inside the app, so you know when mouse movement is allowed.</p>
           </div>
-          <div class="soft-card keywords" aria-label="SEO keyword set">
-            <span class="tag">mouse mover for Mac</span>
-            <span class="tag">Mac mouse jiggler</span>
-            <span class="tag">keep Mac awake</span>
-            <span class="tag">automatic mouse mover</span>
-            <span class="tag">prevent Mac sleep</span>
-            <span class="tag">cursor mover app</span>
-            <span class="tag">mouse nudger</span>
-            <span class="tag">keep status active</span>
-            <span class="tag">mouse movement app</span>
-            <span class="tag">menu bar mouse mover</span>
-            <span class="tag">adjustable mouse jiggler</span>
-            <span class="tag">native macOS utility</span>
+          <div class="soft-card use-list" aria-label="How to use Mouse Sentinel">
+            <div class="use-item"><span class="check">1</span><div><strong>Buy and install</strong><span>Download the native macOS utility and place it in your Applications folder.</span></div></div>
+            <div class="use-item"><span class="check">2</span><div><strong>Allow mouse movement</strong><span>Grant Accessibility permission so Mouse Sentinel can nudge your cursor.</span></div></div>
+            <div class="use-item"><span class="check">3</span><div><strong>Choose your interval</strong><span>Set your automatic mouse mover to run every 5, 15, 30, or 60 seconds.</span></div></div>
+            <div class="use-item"><span class="check">4</span><div><strong>Step away</strong><span>Mouse Sentinel keeps your Mac awake and helps keep status active while it runs.</span></div></div>
           </div>
         </div>
       </section>
 
       <section class="pricing" aria-labelledby="pricing-title">
         <div class="soft-card price-copy">
-          <h2 id="pricing-title">Simple pricing beats subscription fatigue.</h2>
-          <p>Comparable mouse mover tools cluster around low one-time prices and lightweight subscriptions. The strongest position for Mouse Sentinel is a lifetime Mac license at $9.99: premium enough to signal polish, low enough to compete with App Store utilities, and easier to buy than another monthly bill.</p>
+          <h2 id="pricing-title">One price. No monthly bill.</h2>
+          <p>Mouse Sentinel is $9.99 for lifetime access. It is a small, focused Mac productivity utility: a reliable mouse movement app for keeping your computer awake without signing up for another subscription.</p>
         </div>
         <aside class="price-card" aria-label="Mouse Sentinel pricing">
           <h2>Lifetime license</h2>
