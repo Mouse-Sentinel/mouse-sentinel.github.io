@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2C3D41E5F678900000001 /* MouseSentinelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D31E5F678900000001 /* MouseSentinelApp.swift */; };
+		A1B2C3D41E5F678900000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D31E5F678900000002 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1B2C3D11E5F678900000001 /* MouseSentinel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MouseSentinel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D31E5F678900000001 /* MouseSentinelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseSentinelApp.swift; sourceTree = "<group>"; };
+		A1B2C3D31E5F678900000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D31E5F678900000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B2C3D21E5F678900000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B2C3D01E5F678900000001 = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D01E5F678900000002 /* MouseSentinel */,
+				A1B2C3D01E5F678900000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B2C3D01E5F678900000002 /* MouseSentinel */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D31E5F678900000003 /* Info.plist */,
+				A1B2C3D31E5F678900000001 /* MouseSentinelApp.swift */,
+				A1B2C3D31E5F678900000002 /* ContentView.swift */,
+			);
+			path = MouseSentinel;
+			sourceTree = "<group>";
+		};
+		A1B2C3D01E5F678900000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D11E5F678900000001 /* MouseSentinel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B2C3D51E5F678900000001 /* MouseSentinel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D91E5F678900000001 /* Build configuration list for PBXNativeTarget "MouseSentinel" */;
+			buildPhases = (
+				A1B2C3D61E5F678900000001 /* Sources */,
+				A1B2C3D21E5F678900000001 /* Frameworks */,
+				A1B2C3D71E5F678900000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MouseSentinel;
+			productName = MouseSentinel;
+			productReference = A1B2C3D11E5F678900000001 /* MouseSentinel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B2C3D01E5F678900000004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					A1B2C3D51E5F678900000001 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = A1B2C3DA1E5F678900000001 /* Build configuration list for PBXProject "MouseSentinel" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B2C3D01E5F678900000001;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A1B2C3D01E5F678900000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B2C3D51E5F678900000001 /* MouseSentinel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B2C3D71E5F678900000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B2C3D61E5F678900000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D41E5F678900000001 /* MouseSentinelApp.swift in Sources */,
+				A1B2C3D41E5F678900000002 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1B2C3DB1E5F678900000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MouseSentinel/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timgrowney.MouseSentinel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+				ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		A1B2C3DB1E5F678900000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MouseSentinel/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timgrowney.MouseSentinel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+				ARCHS = arm64;
+			};
+			name = Release;
+		};
+		A1B2C3DB1E5F678900000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timgrowney.MouseSentinel;
+				PRODUCT_NAME = MouseSentinel;
+				SWIFT_VERSION = 6.0;
+				ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		A1B2C3DB1E5F678900000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timgrowney.MouseSentinel;
+				PRODUCT_NAME = MouseSentinel;
+				SWIFT_VERSION = 6.0;
+				ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B2C3D91E5F678900000001 /* Build configuration list for PBXNativeTarget "MouseSentinel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3DB1E5F678900000003 /* Debug */,
+				A1B2C3DB1E5F678900000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B2C3DA1E5F678900000001 /* Build configuration list for PBXProject "MouseSentinel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3DB1E5F678900000001 /* Debug */,
+				A1B2C3DB1E5F678900000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B2C3D01E5F678900000004 /* Project object */;
+}
