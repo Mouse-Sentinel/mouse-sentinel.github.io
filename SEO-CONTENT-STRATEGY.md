@@ -35,7 +35,7 @@ Use natural synonyms in one useful page; do not create one thin page for every w
 3. Software vs. Hardware Mouse Jiggler for Mac
 4. Mac Accessibility Permission for Mouse Movers
 
-### Next six articles
+### Published expansion
 
 1. **How to Keep a Mac Awake During a Long Download or Upload**  
    Target: `keep mac awake during download`, `stop Mac sleeping during upload`. Include a tested walkthrough and explain display sleep versus system sleep.
@@ -54,6 +54,8 @@ Use natural synonyms in one useful page; do not create one thin page for every w
 
 6. **How Mouse Sentinel Handles Multiple Displays and Screen Edges**  
    Target: `mouse mover multiple monitors Mac`. Use first-party implementation detail, diagrams, and testing evidence. This is differentiated content competitors cannot easily reproduce.
+
+All six articles were published in the initial site expansion on September 9, 2026. Each links to related guides and the product; `/guides/` acts as the central hub linking to all ten articles.
 
 ## Answer-Engine Plan
 

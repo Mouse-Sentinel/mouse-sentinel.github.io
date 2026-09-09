@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.mousesentinel.com/</loc><lastmod>2026-09-09</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.mousesentinel.com/guides/</loc><lastmod>2026-09-09</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.mousesentinel.com/guides/how-to-keep-mac-awake.html</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.mousesentinel.com/guides/mouse-jiggler-for-mac.html</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.mousesentinel.com/guides/software-vs-hardware-mouse-jiggler.html</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.mousesentinel.com/guides/mac-accessibility-permission-mouse-mover.html</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.mousesentinel.com/guides/keep-mac-awake-during-download.html</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.mousesentinel.com/guides/keep-mac-awake-during-presentation.html</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.mousesentinel.com/guides/caffeinate-command-mac.html</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.mousesentinel.com/guides/mouse-mover-not-working-mac.html</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.mousesentinel.com/guides/mouse-mover-vs-keep-awake-app.html</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.mousesentinel.com/guides/mouse-mover-multiple-monitors-mac.html</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.mousesentinel.com/privacy.html</loc><lastmod>2026-09-09</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
   <url><loc>https://www.mousesentinel.com/tos.html</loc><lastmod>2026-09-09</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
 </urlset>

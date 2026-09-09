@@ -13,10 +13,17 @@
 
 ## Guides
 
+- [All Mac mouse mover guides](https://www.mousesentinel.com/guides/)
 - [How to keep a Mac awake](https://www.mousesentinel.com/guides/how-to-keep-mac-awake.html)
 - [Mouse jigglers for Mac](https://www.mousesentinel.com/guides/mouse-jiggler-for-mac.html)
 - [Software vs. hardware mouse jigglers](https://www.mousesentinel.com/guides/software-vs-hardware-mouse-jiggler.html)
 - [Mac Accessibility permission for mouse movers](https://www.mousesentinel.com/guides/mac-accessibility-permission-mouse-mover.html)
+- [Keep a Mac awake during downloads and uploads](https://www.mousesentinel.com/guides/keep-mac-awake-during-download.html)
+- [Keep a Mac awake during presentations](https://www.mousesentinel.com/guides/keep-mac-awake-during-presentation.html)
+- [The macOS caffeinate command](https://www.mousesentinel.com/guides/caffeinate-command-mac.html)
+- [Fix a mouse mover that is not working on Mac](https://www.mousesentinel.com/guides/mouse-mover-not-working-mac.html)
+- [Mouse mover vs. keep-awake app](https://www.mousesentinel.com/guides/mouse-mover-vs-keep-awake-app.html)
+- [Mouse movement on multiple monitors](https://www.mousesentinel.com/guides/mouse-mover-multiple-monitors-mac.html)
 
 ## Important limitations
 
