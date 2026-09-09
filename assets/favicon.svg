@@ -3,10 +3,12 @@
   <g transform="translate(6)">
     <path d="M50 4 91 20v33c0 24-16 44-41 55C25 97 9 77 9 53V20Z" fill="url(#green)"/>
     <path d="M50 4 91 20v33c0 24-16 44-41 55V4Z" fill="#111" opacity=".12"/>
-    <ellipse cx="32" cy="31" rx="14" ry="18" fill="#fbf7ec"/>
-    <ellipse cx="68" cy="31" rx="14" ry="18" fill="#fbf7ec"/>
-    <path d="M50 78C28 62 22 40 34 28c7-7 14-1 16 9 2-10 9-16 16-9 12 12 6 34-16 50Z" fill="#f4f0e4"/>
-    <g fill="#1a242f"><circle cx="41" cy="49" r="4"/><circle cx="59" cy="49" r="4"/><circle cx="50" cy="70" r="5"/></g>
-    <path d="M36 58 16 53M36 64 17 66M64 58l20-5M64 64l19 2" stroke="#1a242f" stroke-width="4" stroke-linecap="round"/>
+    <g transform="translate(0 8)">
+      <ellipse cx="32" cy="31" rx="14" ry="18" fill="#fbf7ec"/>
+      <ellipse cx="68" cy="31" rx="14" ry="18" fill="#fbf7ec"/>
+      <path d="M50 78C28 62 22 40 34 28c7-7 14-1 16 9 2-10 9-16 16-9 12 12 6 34-16 50Z" fill="#f4f0e4"/>
+      <g fill="#1a242f"><circle cx="41" cy="49" r="4"/><circle cx="59" cy="49" r="4"/><circle cx="50" cy="70" r="5"/></g>
+      <path d="M36 58 16 53M36 64 17 66M64 58l20-5M64 64l19 2" stroke="#1a242f" stroke-width="4" stroke-linecap="round"/>
+    </g>
   </g>
 </svg>

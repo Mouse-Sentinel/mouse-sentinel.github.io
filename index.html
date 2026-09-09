@@ -36,6 +36,54 @@
   <meta name="twitter:description" content="Automatic cursor movement. Adjustable timing. A native Mac mouse jiggler for $9.99, yours for life.">
   <meta name="twitter:image" content="https://www.mousesentinel.com/assets/mouse-sentinel-og.png">
   <meta name="twitter:image:alt" content="Mouse Sentinel shield logo. Mouse mover for Mac. $9.99 once, lifetime access.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.mousesentinel.com/#software",
+        "name": "Mouse Sentinel",
+        "url": "https://www.mousesentinel.com/",
+        "image": "https://www.mousesentinel.com/assets/mouse-sentinel-og.png",
+        "description": "A native macOS mouse mover that makes small cursor movements on an adjustable 5 to 60 second timer and prevents idle display and system sleep while active.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "macOS 14.0 or later",
+        "softwareVersion": "1.0",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.99",
+          "priceCurrency": "USD",
+          "url": "https://buy.stripe.com/9AQ15T5X70Xo6bu288"
+        },
+        "featureList": [
+          "Automatic cursor movement",
+          "Adjustable 5 to 60 second movement interval",
+          "Visible countdown",
+          "Menu bar controls",
+          "Idle display and system sleep prevention"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.mousesentinel.com/#organization",
+        "name": "Mouse Sentinel",
+        "url": "https://www.mousesentinel.com/",
+        "email": "hey@mousesentinel.com",
+        "logo": "https://www.mousesentinel.com/assets/apple-touch-icon.png"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type":"Question","name":"What is a mouse jiggler for Mac?","acceptedAnswer":{"@type":"Answer","text":"A Mac mouse jiggler is software or hardware that moves the cursor automatically. Mouse Sentinel is a native macOS app that makes small cursor movements without a separate USB device."}},
+          {"@type":"Question","name":"How does Mouse Sentinel move the mouse?","acceptedAnswer":{"@type":"Answer","text":"Choose an interval from 5 to 60 seconds and start the app. After no user activity for that interval, Mouse Sentinel moves the pointer a small random distance and restarts its countdown."}},
+          {"@type":"Question","name":"Can Mouse Sentinel keep a Mac awake?","acceptedAnswer":{"@type":"Answer","text":"While active, Mouse Sentinel requests that macOS prevent idle display and system sleep and also moves the cursor periodically. Screen locking and status behavior can still depend on macOS, company, and individual app settings."}},
+          {"@type":"Question","name":"What macOS version does Mouse Sentinel require?","acceptedAnswer":{"@type":"Answer","text":"Mouse Sentinel requires macOS 14.0 or later. The current direct build is for Apple silicon Macs."}}
+        ]
+      }
+    ]
+  }
+  </script>
   <style>
     :root {
       --green: #17b333;
@@ -85,6 +133,9 @@
       gap: 12px;
       flex-wrap: wrap;
     }
+
+    .nav-link { color: var(--muted); font-size: 15px; font-weight: 800; }
+    .nav-link:hover { color: var(--green-dark); }
 
     .brand {
       font-weight: 900;
@@ -633,10 +684,11 @@
       section { padding: 44px 0; }
       .price { font-size: 48px; }
       .pricing { grid-template-columns: 1fr; }
-      .purchase-strip { flex-direction: column; align-items: stretch; }
+    .purchase-strip { flex-direction: column; align-items: stretch; }
       .use-grid { gap: 24px; }
       .hero-actions .button.primary { flex: 1; }
       .price-copy h2, .section-head h2, .use-card h2 { font-size: 30px; }
+      .nav-link { display: none; }
     }
   </style>
 </head>
@@ -668,6 +720,7 @@
         <span>Mouse Sentinel</span>
       </a>
       <div class="nav-actions">
+        <a class="nav-link" href="#guides">Guides</a>
         <a class="button secondary" href="/login">Login</a>
         <a class="button primary" href="https://buy.stripe.com/9AQ15T5X70Xo6bu288">Buy now</a>
       </div>
@@ -678,7 +731,7 @@
         <div>
           <div class="eyebrow"><span class="dot"></span> Native Mac mouse mover</div>
           <h1 id="hero-title">Mouse Sentinel.<br>Your Mac mouse mover.</h1>
-          <p class="lead">Keep your cursor moving while you take care of everything else. Mouse Sentinel gently nudges your mouse on a timer, with adjustable intervals and a clear countdown. A simple, native Mac mouse jiggler for $9.99, yours for life.</p>
+          <p class="lead">Keep your Mac awake during long downloads, presentations, remote sessions, and other unattended tasks. Mouse Sentinel gently nudges your cursor after a period of inactivity, with adjustable intervals and a clear countdown. A simple native Mac mouse jiggler for $9.99, yours for life.</p>
           <div class="hero-actions">
             <a class="button primary" href="https://buy.stripe.com/9AQ15T5X70Xo6bu288">Buy now</a>
             <a class="button secondary" href="/login">Login</a>
@@ -687,7 +740,7 @@
           <div class="proof" aria-label="Product highlights">
             <div class="proof-item"><strong>$9.99</strong><span>Lifetime license for a polished Mac mouse jiggler.</span></div>
             <div class="proof-item"><strong>5-60s</strong><span>Choose how often Sentinel moves your cursor.</span></div>
-            <div class="proof-item"><strong>macOS</strong><span>Built as a tiny native utility for your Mac menu bar.</span></div>
+            <div class="proof-item"><strong>macOS 14+</strong><span>Native Apple silicon utility with convenient menu bar controls.</span></div>
           </div>
         </div>
 
@@ -759,13 +812,26 @@
           <div class="soft-card use-list" aria-label="How to use Mouse Sentinel">
             <div class="use-item"><span class="check">1</span><div><strong>Buy and install</strong><span>Download the native macOS utility and place it in your Applications folder.</span></div></div>
             <div class="use-item"><span class="check">2</span><div><strong>Allow mouse movement</strong><span>Grant Accessibility permission so Mouse Sentinel can nudge your cursor.</span></div></div>
-            <div class="use-item"><span class="check">3</span><div><strong>Choose your interval</strong><span>Set your automatic mouse mover to run every 5, 15, 30, or 60 seconds.</span></div></div>
+            <div class="use-item"><span class="check">3</span><div><strong>Choose your interval</strong><span>Set any movement interval from 5 to 60 seconds.</span></div></div>
             <div class="use-item"><span class="check">4</span><div><strong>Let the timer take over</strong><span>Your cursor moves a small distance at each interval. Switch Mouse Sentinel off whenever you are done.</span></div></div>
           </div>
         </div>
         <div class="purchase-strip">
           <div><strong>Your next tiny Mac upgrade.</strong><p>Automatic mouse movement. Adjustable timing. $9.99 for life.</p></div>
           <a class="button primary" href="https://buy.stripe.com/9AQ15T5X70Xo6bu288">Buy now</a>
+        </div>
+      </section>
+
+      <section id="guides" aria-labelledby="guides-title">
+        <div class="section-head">
+          <h2 id="guides-title">Mac mouse mover guides.</h2>
+          <p>Practical, plain-English answers about keeping a Mac awake, choosing between software and hardware, and understanding the permissions Mouse Sentinel uses.</p>
+        </div>
+        <div class="features">
+          <article class="soft-card feature"><div class="icon-circle">↗</div><h3><a href="/guides/how-to-keep-mac-awake.html">How to keep a Mac awake</a></h3><p>Compare macOS settings, Terminal, keep-awake apps, and automatic mouse movement.</p></article>
+          <article class="soft-card feature"><div class="icon-circle">⌁</div><h3><a href="/guides/mouse-jiggler-for-mac.html">Mouse jigglers for Mac</a></h3><p>How mouse jigglers work, when they help, and what to check before installing one.</p></article>
+          <article class="soft-card feature"><div class="icon-circle">⚖</div><h3><a href="/guides/software-vs-hardware-mouse-jiggler.html">Software vs. hardware</a></h3><p>A direct comparison of convenience, visibility, portability, permissions, and cost.</p></article>
+          <article class="soft-card feature"><div class="icon-circle">✓</div><h3><a href="/guides/mac-accessibility-permission-mouse-mover.html">Accessibility permission</a></h3><p>Why cursor-control apps request it and how to review access in macOS settings.</p></article>
         </div>
       </section>
 
@@ -794,6 +860,7 @@
         <details open><summary>How does the automatic mouse movement work?</summary><p>Turn the app on and choose an interval from 5 to 60 seconds. When the countdown finishes, Mouse Sentinel moves the cursor a small random distance and starts the timer again. You can see the running state and stop movement from the app.</p></details>
         <details open><summary>Can I use it to keep my Mac awake?</summary><p>Mouse Sentinel is designed for people looking to keep their Mac active through periodic cursor movement. Sleep, screen locking, and availability indicators can also depend on macOS settings and the apps you use, so cursor movement alone does not guarantee that every app will remain active.</p></details>
         <details><summary>Does Mouse Sentinel need macOS permissions?</summary><p>Yes. Allow Accessibility access so the app can move your cursor. Mouse Sentinel shows its permission status, making it easy to check whether mouse movement is allowed.</p></details>
+        <details><summary>Which Macs can run Mouse Sentinel?</summary><p>Mouse Sentinel requires macOS 14.0 or later. The current direct download is built for Apple silicon Macs. Contact us before buying if you are unsure which processor your Mac uses.</p></details>
         <details><summary>Is $9.99 a subscription?</summary><p>No. $9.99 is a one-time payment for lifetime access to Mouse Sentinel. There is no monthly or annual subscription.</p></details>
         <div class="purchase-strip">
           <div><strong>Meet your new Mac sidekick.</strong><p>Mouse Sentinel. $9.99. Yours for life.</p></div>

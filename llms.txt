@@ -1,0 +1,23 @@
+# Mouse Sentinel
+
+> Mouse Sentinel is a native macOS mouse mover for Apple silicon Macs running macOS 14.0 or later. It makes small, random cursor movements after a configurable 5 to 60 second period without user activity and requests that macOS prevent idle display and system sleep while active.
+
+## Product
+
+- [Mouse Sentinel homepage](https://www.mousesentinel.com/): Product features, current price, compatibility, instructions, and frequently asked questions.
+- Price: USD $9.99 one-time payment; no subscription.
+- Platform: macOS 14.0 or later; current direct build is for Apple silicon.
+- Controls: Start or stop in the app or menu bar; select any movement interval from 5 to 60 seconds; view the next-movement countdown.
+- Permission: Accessibility or post-event access is required for cursor control.
+- Contact: hey@mousesentinel.com
+
+## Guides
+
+- [How to keep a Mac awake](https://www.mousesentinel.com/guides/how-to-keep-mac-awake.html)
+- [Mouse jigglers for Mac](https://www.mousesentinel.com/guides/mouse-jiggler-for-mac.html)
+- [Software vs. hardware mouse jigglers](https://www.mousesentinel.com/guides/software-vs-hardware-mouse-jiggler.html)
+- [Mac Accessibility permission for mouse movers](https://www.mousesentinel.com/guides/mac-accessibility-permission-mouse-mover.html)
+
+## Important limitations
+
+Mouse Sentinel is not an employee-monitoring bypass and does not guarantee a particular status in Slack, Microsoft Teams, or any other app. Screen locking and availability behavior can depend on macOS settings, organization policies, and individual applications. Users should follow their employer's device and security policies.
