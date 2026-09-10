@@ -873,7 +873,7 @@
     </main>
 
     <footer>
-      <span>© 2026 Mouse Sentinel</span>
+      <span>© <span class="copyright-year">2026</span> enobl LLC</span>
       <div class="footer-links">
         <a href="mailto:hey@mousesentinel.com">hey@mousesentinel.com</a>
         <a href="/tos.html">Terms of Service</a>
@@ -881,5 +881,5 @@
       </div>
     </footer>
   </div>
-</body>
+<script>document.querySelectorAll('.copyright-year').forEach(function(el){el.textContent = new Date().getFullYear();});</script></body>
 </html>
