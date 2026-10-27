@@ -11,17 +11,43 @@
     <text x="88" y="487" font-size="26" font-weight="700" fill="white">$9.99 once. Yours for life.</text>
     <text x="64" y="574" font-size="20" fill="#626e7d">Native macOS app &#183; Adjustable timing &#183; No subscription</text>
   </g>
-  <svg x="854" y="158" width="320" height="320" viewBox="0 0 112 112">
-    <defs><linearGradient id="green" x2="1" y2="1"><stop stop-color="#5ec43b"/><stop offset="1" stop-color="#078c37"/></linearGradient></defs>
-    <g transform="translate(6)">
-      <path d="M50 4 91 20v33c0 24-16 44-41 55C25 97 9 77 9 53V20Z" fill="url(#green)"/>
-      <path d="M50 4 91 20v33c0 24-16 44-41 55V4Z" fill="#111" opacity=".12"/>
-      <g transform="translate(0 8)">
-        <ellipse cx="32" cy="31" rx="14" ry="18" fill="#fbf7ec"/><ellipse cx="68" cy="31" rx="14" ry="18" fill="#fbf7ec"/>
-        <path d="M50 78C28 62 22 40 34 28c7-7 14-1 16 9 2-10 9-16 16-9 12 12 6 34-16 50Z" fill="#f4f0e4"/>
-        <g fill="#1a242f"><circle cx="41" cy="49" r="4"/><circle cx="59" cy="49" r="4"/><circle cx="50" cy="70" r="5"/></g>
-        <path d="M36 58 16 53M36 64 17 66M64 58l20-5M64 64l19 2" stroke="#1a242f" stroke-width="4" stroke-linecap="round"/>
-      </g>
-    </g>
-  </svg>
+  <svg x="880" y="135" width="290" height="360" viewBox="0 0 1447 1799" fill="none">
+<path d="M723.095 1798.4V0L0 276.81C0 276.81 -0.00421672 645.728 4.2317 978.908C21.3139 1092.33 49.8533 1198.98 95.7837 1280.17C316.132 1669.72 723.095 1798.4 723.095 1798.4Z" fill="url(#msShieldL)"/>
+<path d="M723.093 1798.4V0L1446.19 276.81C1446.19 276.81 1446.19 645.728 1441.96 978.908C1424.87 1092.33 1396.33 1198.98 1350.4 1280.17C1130.06 1669.72 723.093 1798.4 723.093 1798.4Z" fill="url(#msShieldR)"/>
+<ellipse cx="405.393" cy="688.507" rx="317.843" ry="329.652" fill="#FCF7EC"/>
+<ellipse cx="317.843" cy="329.652" rx="317.843" ry="329.652" transform="matrix(-1 0 0 1 1360.47 358.854)" fill="#FCF7EC"/>
+<ellipse cx="412.305" cy="712.905" rx="234.781" ry="243.504" fill="#FDC6BB"/>
+<ellipse cx="234.781" cy="243.504" rx="234.781" ry="243.504" transform="matrix(-1 0 0 1 1270.49 469.4)" fill="#FDC6BB"/>
+<ellipse cx="429.904" cy="740.256" rx="153.252" ry="158.946" fill="#FDB4AB"/>
+<ellipse cx="153.252" cy="158.946" rx="153.252" ry="158.946" transform="matrix(-1 0 0 1 1171.37 581.311)" fill="#FDB4AB"/>
+<path d="M1090.83 910.059C1090.83 1060.51 842.708 1420.8 726.987 1420.8C611.266 1420.8 358.742 1060.51 358.742 910.059C358.742 834.567 376.348 734.609 439.277 685.271C501.759 636.282 631.9 594.445 726.987 594.445C827.652 594.445 963.631 631.127 1026.79 685.271C1083.38 733.78 1090.83 838.963 1090.83 910.059Z" fill="#F5F0E4"/>
+<ellipse cx="405.393" cy="688.507" rx="317.843" ry="329.652" fill="#FCF7EC"/>
+<ellipse cx="317.843" cy="329.652" rx="317.843" ry="329.652" transform="matrix(-1 0 0 1 1360.47 358.854)" fill="#FCF7EC"/>
+<ellipse cx="412.305" cy="712.905" rx="234.781" ry="243.504" fill="#FDC6BB"/>
+<ellipse cx="234.781" cy="243.504" rx="234.781" ry="243.504" transform="matrix(-1 0 0 1 1270.49 469.4)" fill="#FDC6BB"/>
+<ellipse cx="429.904" cy="740.256" rx="153.252" ry="158.946" fill="#FDB4AB"/>
+<ellipse cx="153.252" cy="158.946" rx="153.252" ry="158.946" transform="matrix(-1 0 0 1 1171.37 581.311)" fill="#FDB4AB"/>
+<path d="M1090.83 910.059C1090.83 1060.51 842.708 1420.8 726.987 1420.8C611.266 1420.8 358.742 1060.51 358.742 910.059C358.742 834.567 376.348 734.609 439.277 685.271C501.759 636.282 631.9 594.445 726.987 594.445C827.652 594.445 963.631 631.127 1026.79 685.271C1083.38 733.78 1090.83 838.963 1090.83 910.059Z" fill="#F5F0E4"/>
+<circle cx="727.242" cy="1358.26" r="69.9214" fill="#222222"/>
+<circle cx="79.5337" cy="79.5337" r="79.5337" transform="matrix(-1 0 0 1 954.307 880.637)" fill="#222222"/>
+<circle cx="26.5896" cy="26.5896" r="26.5896" transform="matrix(-1 0 0 1 884.164 899.18)" fill="white"/>
+<circle cx="10.2104" cy="10.2104" r="10.2104" transform="matrix(-1 0 0 1 930.49 978.271)" fill="white"/>
+<circle cx="571.415" cy="960.17" r="79.5337" fill="#222222"/>
+<circle cx="588.613" cy="925.769" r="26.5896" fill="white"/>
+<circle cx="525.908" cy="988.481" r="10.2104" fill="white"/>
+<path d="M910.814 1177.4L1144.49 1136.2" stroke="black" stroke-width="30" stroke-linecap="round"/>
+<path d="M910.072 1230.9L1145.22 1272.36" stroke="black" stroke-width="30" stroke-linecap="round"/>
+<path d="M535.377 1177.39L301.706 1136.19" stroke="black" stroke-width="30" stroke-linecap="round"/>
+<path d="M536.119 1230.89L300.969 1272.35" stroke="black" stroke-width="30" stroke-linecap="round"/>
+<defs>
+<linearGradient id="msShieldL" x1="1.1992e-06" y1="296.386" x2="723.095" y2="1798.4" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5BD149"/>
+<stop offset="1" stop-color="#2FAA5B"/>
+</linearGradient>
+<linearGradient id="msShieldR" x1="1084.64" y1="0" x2="1084.64" y2="1798.4" gradientUnits="userSpaceOnUse">
+<stop stop-color="#279549"/>
+<stop offset="1" stop-color="#339B53"/>
+</linearGradient>
+</defs>
+</svg>
 </svg>
